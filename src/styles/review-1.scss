@@ -1,0 +1,73 @@
+body {
+   background-color: $giant-bg-color;
+   color: #000;
+   font-family: "PingFang SC";
+}
+
+.wrapper {
+   max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   height: 100vh;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   max-width: 680px;
+   padding: 0px 30px;
+   gap: 30px;
+}
+
+.header {
+   //background-color: $giant-bg-color;
+}
+
+.header__logo {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   align-items: center;
+
+   @media screen and (min-width: 768px) {
+      align-items: normal;
+   }
+}
+
+.header__img {
+   max-width: 215px;
+
+   img {
+      height: 28px;
+
+      @media screen and (min-width: 376px) {
+         height: 42px;
+      }
+   }
+}
+
+main {
+   //background-color: $giant-bg-color;
+}
+
+.components {
+   padding-bottom: 50px;
+}
+
+.components__title {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   padding-top: 64px;
+   padding-bottom: 25px;
+   align-items: center;
+
+   @media screen and (min-width: 768px) {
+      align-items: normal;
+   }
+}
